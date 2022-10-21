@@ -3,12 +3,6 @@
     "description": "This is package for sending sms to Bangladeshi mobile numbers using laravel application",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Ariful islam",
-            "email": "arif98741@gmail.com"
-        }
-    ],
     "require": {
         "guzzlehttp/guzzle": "^6.3|^7.3",
         "ext-json": "*",
