@@ -1,6 +1,6 @@
 <?php
 
-namespace Xenon\LaravelBDSms;
+namespace Radon\LaravelBDSms;
 
 use App\Http\Controllers\Controller;
 use GuzzleHttp\Client;
@@ -8,8 +8,8 @@ use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\RequestOptions;
 use Psr\Http\Message\ResponseInterface;
-use Xenon\LaravelBDSms\Handler\RenderException;
-use Xenon\LaravelBDSms\Job\SendSmsJob;
+use Radon\LaravelBDSms\Handler\RenderException;
+use Radon\LaravelBDSms\Job\SendSmsJob;
 
 class Request extends Controller
 {

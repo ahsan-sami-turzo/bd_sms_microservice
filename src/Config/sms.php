@@ -6,7 +6,7 @@
 |
 | This file is key value a pair of providers. Individual provider has different types of
 | params and api request params. This file is generated after running command below from your terminal.
-| php artisan vendor:publish --provider="Xenon\\LaravelBDSmsLog\\LaravelBDSmsServiceProvider"
+| php artisan vendor:publish --provider="Radon\\LaravelBDSmsLog\\LaravelBDSmsServiceProvider"
 | .Here All data ar dynamically coming from .env file.
 | Be sure to confirm to select default provider during use SMS facade, otherwise you can manually send sms
 | by selecting provider.
@@ -14,35 +14,35 @@
 |
 */
 
-use Xenon\LaravelBDSms\Provider\Adn;
-use Xenon\LaravelBDSms\Provider\AjuraTech;
-use Xenon\LaravelBDSms\Provider\Alpha;
-use Xenon\LaravelBDSms\Provider\Banglalink;
-use Xenon\LaravelBDSms\Provider\BDBulkSms;
-use Xenon\LaravelBDSms\Provider\BoomCast;
-use Xenon\LaravelBDSms\Provider\Brilliant;
-use Xenon\LaravelBDSms\Provider\BulkSmsBD;
-use Xenon\LaravelBDSms\Provider\DianaHost;
-use Xenon\LaravelBDSms\Provider\DianaSms;
-use Xenon\LaravelBDSms\Provider\DnsBd;
-use Xenon\LaravelBDSms\Provider\ElitBuzz;
-use Xenon\LaravelBDSms\Provider\Esms;
-use Xenon\LaravelBDSms\Provider\GreenWeb;
-use Xenon\LaravelBDSms\Provider\Infobip;
-use Xenon\LaravelBDSms\Provider\MDL;
-use Xenon\LaravelBDSms\Provider\Metronet;
-use Xenon\LaravelBDSms\Provider\MimSms;
-use Xenon\LaravelBDSms\Provider\Mobireach;
-use Xenon\LaravelBDSms\Provider\Mobishasra;
-use Xenon\LaravelBDSms\Provider\NovocomBd;
-use Xenon\LaravelBDSms\Provider\Onnorokom;
-use Xenon\LaravelBDSms\Provider\SmartLabSms;
-use Xenon\LaravelBDSms\Provider\Sms4BD;
-use Xenon\LaravelBDSms\Provider\SmsNet24;
-use Xenon\LaravelBDSms\Provider\Ssl;
-use Xenon\LaravelBDSms\Provider\Tense;
-use Xenon\LaravelBDSms\Provider\TwentyFourSmsBD;
-use Xenon\LaravelBDSms\Provider\Viatech;
+use Radon\LaravelBDSms\Provider\Adn;
+use Radon\LaravelBDSms\Provider\AjuraTech;
+use Radon\LaravelBDSms\Provider\Alpha;
+use Radon\LaravelBDSms\Provider\Banglalink;
+use Radon\LaravelBDSms\Provider\BDBulkSms;
+use Radon\LaravelBDSms\Provider\BoomCast;
+use Radon\LaravelBDSms\Provider\Brilliant;
+use Radon\LaravelBDSms\Provider\BulkSmsBD;
+use Radon\LaravelBDSms\Provider\DianaHost;
+use Radon\LaravelBDSms\Provider\DianaSms;
+use Radon\LaravelBDSms\Provider\DnsBd;
+use Radon\LaravelBDSms\Provider\ElitBuzz;
+use Radon\LaravelBDSms\Provider\Esms;
+use Radon\LaravelBDSms\Provider\GreenWeb;
+use Radon\LaravelBDSms\Provider\Infobip;
+use Radon\LaravelBDSms\Provider\MDL;
+use Radon\LaravelBDSms\Provider\Metronet;
+use Radon\LaravelBDSms\Provider\MimSms;
+use Radon\LaravelBDSms\Provider\Mobireach;
+use Radon\LaravelBDSms\Provider\Mobishasra;
+use Radon\LaravelBDSms\Provider\NovocomBd;
+use Radon\LaravelBDSms\Provider\Onnorokom;
+use Radon\LaravelBDSms\Provider\SmartLabSms;
+use Radon\LaravelBDSms\Provider\Sms4BD;
+use Radon\LaravelBDSms\Provider\SmsNet24;
+use Radon\LaravelBDSms\Provider\Ssl;
+use Radon\LaravelBDSms\Provider\Tense;
+use Radon\LaravelBDSms\Provider\TwentyFourSmsBD;
+use Radon\LaravelBDSms\Provider\Viatech;
 
 return [
     /*

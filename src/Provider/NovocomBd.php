@@ -1,19 +1,11 @@
 <?php
-/*
- *  Last Modified: 6/16/22, 12:56 AM
- *  Copyright (c) 2022
- *  -created by Ariful Islam
- *  -All Rights Preserved By
- *  -If you have any query then knock me at
- *  arif98741@gmail.com
- *  See my profile @ https://github.com/arif98741
- */
 
-namespace Xenon\LaravelBDSms\Provider;
 
-use Xenon\LaravelBDSms\Handler\ParameterException;
-use Xenon\LaravelBDSms\Request;
-use Xenon\LaravelBDSms\Sender;
+namespace Radon\LaravelBDSms\Provider;
+
+use Radon\LaravelBDSms\Handler\ParameterException;
+use Radon\LaravelBDSms\Request;
+use Radon\LaravelBDSms\Sender;
 
 class NovocomBd extends AbstractProvider
 {
@@ -30,7 +22,7 @@ class NovocomBd extends AbstractProvider
      * Send Request To Api and Send Message
      * @return bool|mixed|string
      * @throws \GuzzleHttp\Exception\GuzzleException
-     * @throws \Xenon\LaravelBDSms\Handler\RenderException
+     * @throws \Radon\LaravelBDSms\Handler\RenderException
      */
     public function sendRequest()
     {

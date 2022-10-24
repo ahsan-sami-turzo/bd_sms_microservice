@@ -1,6 +1,6 @@
 <?php
 
-namespace Xenon\LaravelBDSms\Job;
+namespace Radon\LaravelBDSms\Job;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
@@ -12,7 +12,7 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Config;
 use JsonException;
 use Psr\Http\Message\ResponseInterface;
-use Xenon\LaravelBDSms\Facades\Logger;
+use Radon\LaravelBDSms\Facades\Logger;
 
 class SendSmsJob implements ShouldQueue
 {

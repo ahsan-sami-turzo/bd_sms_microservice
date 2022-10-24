@@ -1,13 +1,13 @@
-<?php namespace Xenon\LaravelBDSms\Facades;
+<?php namespace Radon\LaravelBDSms\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 
 /**
- * @method static Xenon\LaravelBDSms\Request get($requestUrl, array $query, bool $verify = false, $timeout = 10.0)
- * @method static Xenon\LaravelBDSms\Request post($requestUrl, array $query, bool $verify = false, $timeout = 10.0)
- * @method static Xenon\LaravelBDSms\Request setQueue(bool $queue)
- * @see \Xenon\LaravelBDSms\Request
+ * @method static Radon\LaravelBDSms\Request get($requestUrl, array $query, bool $verify = false, $timeout = 10.0)
+ * @method static Radon\LaravelBDSms\Request post($requestUrl, array $query, bool $verify = false, $timeout = 10.0)
+ * @method static Radon\LaravelBDSms\Request setQueue(bool $queue)
+ * @see \Radon\LaravelBDSms\Request
  */
 class Request extends Facade
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Xenon\LaravelBDSms\Helper;
+namespace Radon\LaravelBDSms\Helper;
 
 class Helper
 {

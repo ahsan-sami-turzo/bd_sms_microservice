@@ -1,20 +1,12 @@
 <?php
-/*
- *  Last Modified: 6/28/21, 11:18 PM
- *  Copyright (c) 2021
- *  -created by Ariful Islam
- *  -All Rights Preserved By
- *  -If you have any query then knock me at
- *  arif98741@gmail.com
- *  See my profile @ https://github.com/arif98741
- */
 
-namespace Xenon\LaravelBDSms\Provider;
 
-use Xenon\LaravelBDSms\Handler\RenderException;
-use Xenon\LaravelBDSms\Helper\Helper;
-use Xenon\LaravelBDSms\Request;
-use Xenon\LaravelBDSms\Sender;
+namespace Radon\LaravelBDSms\Provider;
+
+use Radon\LaravelBDSms\Handler\RenderException;
+use Radon\LaravelBDSms\Helper\Helper;
+use Radon\LaravelBDSms\Request;
+use Radon\LaravelBDSms\Sender;
 
 class SmsNet24 extends AbstractProvider
 {

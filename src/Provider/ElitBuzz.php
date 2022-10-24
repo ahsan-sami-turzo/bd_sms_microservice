@@ -1,10 +1,10 @@
 <?php
 
-namespace Xenon\LaravelBDSms\Provider;
+namespace Radon\LaravelBDSms\Provider;
 
-use Xenon\LaravelBDSms\Handler\RenderException;
-use Xenon\LaravelBDSms\Request;
-use Xenon\LaravelBDSms\Sender;
+use Radon\LaravelBDSms\Handler\RenderException;
+use Radon\LaravelBDSms\Request;
+use Radon\LaravelBDSms\Sender;
 
 class ElitBuzz extends AbstractProvider
 {

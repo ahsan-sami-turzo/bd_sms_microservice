@@ -5,13 +5,13 @@ SMS gateway package for sending text message to Bangladeshi mobile numbers
 ## Step 1:
 
 ```
-composer require xenon/laravelbdsms
+composer require radon/laravelbdsms
 ```
 
 ## Step 2:
 
 ```
-php artisan vendor:publish --provider=Xenon\LaravelBDSms\LaravelBDSmsServiceProvider
+php artisan vendor:publish --provider=Radon\LaravelBDSms\LaravelBDSmsServiceProvider
 ```
 
 ## Step 3:
@@ -24,8 +24,8 @@ php artisan config:cache && php artisan migrate
 # Sample Code
 ## SSLCommerz
 <pre>
-use Xenon\LaravelBDSms\Provider\Ssl;
-use Xenon\LaravelBDSms\Sender;
+use Radon\LaravelBDSms\Provider\Ssl;
+use Radon\LaravelBDSms\Sender;
 
 $sender = Sender::getInstance();
 $sender->setProvider(Ssl::class); 
@@ -48,7 +48,7 @@ $status = $sender->send();
 array:6 [▼
   "status" => "response"
   "response" => "{"status":"FAILED","status_code":4003,"error_message":"IP Blacklisted"}"
-  "provider" => "Xenon\LaravelBDSms\Provider\Ssl"
+  "provider" => "Radon\LaravelBDSms\Provider\Ssl"
   "send_time" => "2021-07-06 08:03:23"
   "mobile" => "017XXYYZZAA"
   "message" => "helloooooooo boss!"
@@ -58,8 +58,8 @@ array:6 [▼
 ## MimSMS
 
 <pre>
-use Xenon\LaravelBDSms\Provider\MimSms;
-use Xenon\LaravelBDSms\Sender;
+use Radon\LaravelBDSms\Provider\MimSms;
+use Radon\LaravelBDSms\Sender;
 
 $sender = Sender::getInstance();
 $sender->setProvider(MimSms::class);

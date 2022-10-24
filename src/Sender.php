@@ -1,23 +1,15 @@
 <?php
-/*
- *  Last Modified: 6/28/21, 11:18 PM
- *  Copyright (c) 2021
- *  -created by Ariful Islam
- *  -All Rights Preserved By
- *  -If you have any query then knock me at
- *  arif98741@gmail.com
- *  See my profile @ https://github.com/arif98741
- */
 
-namespace Xenon\LaravelBDSms;
+
+namespace Radon\LaravelBDSms;
 
 
 use Exception;
 use Illuminate\Support\Facades\Config;
-use Xenon\LaravelBDSms\Facades\Logger;
-use Xenon\LaravelBDSms\Handler\ParameterException;
-use Xenon\LaravelBDSms\Handler\RenderException;
-use Xenon\LaravelBDSms\Provider\AbstractProvider;
+use Radon\LaravelBDSms\Facades\Logger;
+use Radon\LaravelBDSms\Handler\ParameterException;
+use Radon\LaravelBDSms\Handler\RenderException;
+use Radon\LaravelBDSms\Provider\AbstractProvider;
 
 class Sender
 {

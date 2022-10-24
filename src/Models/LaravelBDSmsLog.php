@@ -1,6 +1,6 @@
 <?php
 
-namespace Xenon\LaravelBDSms\Models;
+namespace Radon\LaravelBDSms\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

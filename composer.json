@@ -1,5 +1,5 @@
 {
-    "name": "xenon/laravelbdsms",
+    "name": "radon/laravelbdsms",
     "description": "This is package for sending sms to Bangladeshi mobile numbers using laravel application",
     "type": "library",
     "license": "MIT",
@@ -11,18 +11,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Xenon\\LaravelBDSms\\": "src/"
+            "Radon\\LaravelBDSms\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Xenon\\LaravelBDSms\\LaravelBDSmsServiceProvider"
+                "Radon\\LaravelBDSms\\LaravelBDSmsServiceProvider"
             ],
             "aliases": {
-                "SMS": "Xenon\\LaravelBDSms\\Facades\\SMS",
-                "LaravelBDSms": "Xenon\\LaravelBDSms\\Facades\\SMS",
-                "LaravelBDSmsLogger": "Xenon\\LaravelBDSms\\Facades\\Logger"
+                "SMS": "Radon\\LaravelBDSms\\Facades\\SMS",
+                "LaravelBDSms": "Radon\\LaravelBDSms\\Facades\\SMS",
+                "LaravelBDSmsLogger": "Radon\\LaravelBDSms\\Facades\\Logger"
             }
         }
     }

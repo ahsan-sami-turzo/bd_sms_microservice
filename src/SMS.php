@@ -1,4 +1,4 @@
-<?php namespace Xenon\LaravelBDSms;
+<?php namespace Radon\LaravelBDSms;
 
 use Exception;
 

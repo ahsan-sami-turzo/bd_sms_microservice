@@ -1,19 +1,11 @@
 <?php
-/*
- *  Last Modified: 6/29/21, 12:06 AM
- *  Copyright (c) 2021
- *  -created by Ariful Islam
- *  -All Rights Preserved By
- *  -If you have any query then knock me at
- *  arif98741@gmail.com
- *  See my profile @ https://github.com/arif98741
- */
 
-namespace Xenon\LaravelBDSms\Provider;
 
-use Xenon\LaravelBDSms\Handler\ParameterException;
-use Xenon\LaravelBDSms\Request;
-use Xenon\LaravelBDSms\Sender;
+namespace Radon\LaravelBDSms\Provider;
+
+use Radon\LaravelBDSms\Handler\ParameterException;
+use Radon\LaravelBDSms\Request;
+use Radon\LaravelBDSms\Sender;
 
 class Tense extends AbstractProvider
 {
